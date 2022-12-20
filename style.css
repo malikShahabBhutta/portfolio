@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:ital,wght@0,300;1,300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+:root{
+    --primary-color:rgb(54, 219, 54);
+    --off-gray:#64748b;
+}
+.ve{
+    max-width: 600px;
+    margin :  auto;
+    
+}
+.link{
+
+    text-decoration: none;
+    padding:0rem 1rem;
+}
+.link-primary{
+    /* background-color:var(--primary-color); */
+    background-color:#64748b;
+    border-radius:5px;
+    border: 1px solid var(--primary-color)
+}
+.link-sec{
+    
+background-color:var(--primary-color);
+    border-radius:5px;
+    border: 1px solid var(--primary-color)
+    
+}   
+hr{
+    margin:2rem 0rem;
+}
+.non-b{
+    list-style: none;
+}
+.in-l{
+    list-style: none;
+    display: inline;
+    padding:0rem 2rem;
+}
+.navigation{
+    background-color:var(--primary-color);
+    border-color:aliceblue;
+    border-radius: 4px;
+    padding:1rem;
+    border-bottom-left-radius: 2rem;
+
+}
+/* link */
+
+.link1{
+    color:white; 
+    text-align: left;
+    text-decoration:none;
+}
+/* navigation  */
+
+.navigation.uno{
+    text-align: left;
+
+}
+.hero{
+    padding:2rem; 
+}
+
+/* header */
+.hero .hero-img{
+    max-width: 365px;
+    display: block;
+    margin:auto;
+    display: center;
+}
+.heading-chg{
+    color:var(--primary-color);
+}
+/* section  */
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color:var(--off-gray);
+}
+.foot .footer-into {
+    color: var(--off-gray);
+    
+}
+.link2{
+    text-decoration: none;
+
+}
+.footer{
+    background-color:var(--primary-color);
+    border-radius:5px;
+    border: 1px solid var(--primary-color);
+    padding:1rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 2rem;
+}
+
+.footer ul.link{
+    padding-inline-start: 0.5rem;
+    color:rgb(132, 13, 13);
+}
+
+.link-primary:hover{
+    /* color:rgb(39, 180, 135); */
+    background-color:skyblue;
+}
+.section-ve{
+    
+    padding:2rem;
+    text-align: center;
+} 
